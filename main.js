@@ -12,7 +12,7 @@ function getLastItemFrom(arr) {
 
 function getIndex3(arr) {
   if (arr.length < 4) {
-    return arr.[arr.length - 1];
+    return arr[arr.length - 1];
   } else {
     return arr[3];
   }
